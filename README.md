@@ -1,5 +1,7 @@
 # countries-rest-react
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/14c3dd81-e846-4a79-9b00-efb4040b3010/deploy-status)](https://app.netlify.com/sites/countrie-rest-react/deploys)
+
 ## About The Project
 
 This is an application that gives some information about all countries in the world.
@@ -23,7 +25,6 @@ The live version of app is [Here](https://rest-countries-react-eight.vercel.app/
 - [Rest Countries API] (https://restcountries.com/)
 - [SASS] (https://sass-lang.com/documentation/syntax)
 
-
 ## Running The App
 
 In the project directory, you can run:
@@ -40,4 +41,3 @@ npm run build
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
-

@@ -25,5 +25,6 @@
   @media (min-width: 45em) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 6rem;
   }
 }
