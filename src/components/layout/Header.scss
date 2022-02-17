@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  background-color: var(--elements);
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  @media screen and (min-width: 45em) {
+    padding: 2rem 0;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+}
+
+.header__container {
+  @media screen and (min-width: 45em) {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}

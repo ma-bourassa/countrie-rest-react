@@ -1,0 +1,29 @@
+.search-filter-section {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  .search {
+    width: 24rem;
+  }
+
+  .filter {
+    width: 12rem;
+  }
+}
+
+.countries {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+
+  @media (min-width: 45em) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

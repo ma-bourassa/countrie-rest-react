@@ -1,0 +1,50 @@
+:root {
+  --dark-blue: hsl(209, 23%, 22%);
+  --very-dark-blue: hsl(207, 26%, 17%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --dark-gray: hsl(0, 0%, 52%);
+  --super-dark-blue: hsl(200, 15%, 8%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 75%);
+
+  /* Light theme */
+  --background: var(--very-light-gray);
+  --elements: var(--white);
+  --elements-hover: var(--light-gray);
+  --text: var(--super-dark-blue);
+  --input: var(--dark-gray);
+}
+
+/* Dark theme */
+body.dark {
+  --background: var(--very-dark-blue);
+  --elements: var(--dark-blue);
+  --elements-hover: var(--very-dark-blue);
+  --text: var(--white);
+  --input: var(--white);
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  transition: background-color 400ms ease;
+}
+
+input,
+input::placeholder {
+  color: var(--input);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 1.5rem;
+  @media screen and (min-width: 45em) {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}

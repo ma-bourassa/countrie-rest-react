@@ -1,0 +1,40 @@
+.card {
+  background-color: var(--elements);
+  border-radius: 4px;
+  max-width: 16rem;
+
+  @media screen and (min-width: 45em) {
+    max-width: 24rem;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    height: 10rem;
+    border-radius: 4px 4px 0 0;
+    @media screen and (min-width: 45em) {
+      max-width: 400px;
+      height: 12rem;
+    }
+  }
+
+  &__info {
+    padding: 1rem;
+
+    &__title {
+      font-size: 1.1rem;
+      font-weight: 800;
+      margin: 1rem 0;
+    }
+
+    &__details {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+
+      &__spec {
+        font-weight: 600;
+      }
+    }
+  }
+}
