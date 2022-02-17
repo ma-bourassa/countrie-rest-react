@@ -10,12 +10,10 @@
   &__image {
     display: block;
     width: 100%;
-    height: auto;
+    height: 12rem;
     border-radius: 4px 4px 0 0;
     @media screen and (min-width: 45em) {
       width: 100%;
-      height: auto;
-      max-height: 13rem;
     }
   }
 
